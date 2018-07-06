@@ -26,7 +26,7 @@ Then, in your `_config.yml` file, add a new array with the key gems and the valu
 plugins:
   - jekyll-money
 ```
-Note: If using a version of Jekyll below 3.6, use `gems:` in place of `plugins:`.
+Note: If using a version of Jekyll below `3.6.0`, use `gems:` in place of `plugins:`.
 
 ## Usage
 
