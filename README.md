@@ -23,9 +23,10 @@ Or install it yourself as:
 Then, in your `_config.yml` file, add a new array with the key gems and the values of the gem names of the plugins you’d like to use. In this case:
 
 ```yaml
-gems:
+plugins:
   - jekyll-money
 ```
+Note: If using a version of Jekyll below 3.6, use `gems:` in place of `plugins:`.
 
 ## Usage
 
