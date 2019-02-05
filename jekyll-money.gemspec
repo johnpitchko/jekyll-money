@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "jekyll-money"
   spec.version       = JekyllMoney::VERSION
   spec.authors       = ["Josh Habdas"]
-  spec.email         = ["jhabdas@gmail.com"]
+  spec.email         = ["jhabdas@protonmail.com"]
 
   spec.summary       = "A Jekyll plugin for dealing with money. Because we all have to at some point."
-  spec.homepage      = "https://github.com/jhabdas/jekyll-money"
+  spec.homepage      = "https://git.habd.as/jhabdas/jekyll-money"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

@@ -55,7 +55,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/jhabdas/jekyll-money.
+Bug reports and pull requests welcome at https://git.habd.as/jhabdas/jekyll-money.
 
 ## Credits
 
