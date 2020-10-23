@@ -6,8 +6,8 @@ require 'jekyll-money/version'
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-money"
   spec.version       = JekyllMoney::VERSION
-  spec.authors       = ["Josh Habdas"]
-  spec.email         = ["jhabdas@protonmail.com"]
+  spec.authors       = ["Josh Habdas", 'John Pitchko']
+  spec.email         = ["jhabdas@protonmail.com", 'john.pitchko@icloud.com']
 
   spec.summary       = "A Jekyll plugin for dealing with money. Because we all have to at some point."
   spec.homepage      = "https://git.habd.as/jhabdas/jekyll-money"
