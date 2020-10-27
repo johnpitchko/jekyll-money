@@ -4,6 +4,8 @@ require "money"
 # Also suppresses deprecation warnings
 # https://github.com/RubyMoney/money#localization
 Money.locale_backend = :currency
+# Explicitly state rounding method; also suppresses warning
+Money.rounding_mode = BigDecimal::ROUND_HALF_UP
 
 module JekyllMoney
   module Core
