@@ -5,8 +5,8 @@ module JekyllMoney
       JekyllMoney::Core.money(value, currency, config)
     end
 
-    def to_money(value)
-      JekyllMoney::Core.to_money(value)
+    def money_from_amount(value)
+      JekyllMoney::Core.money_from_amount(value)
     end
   end
 end

@@ -15,8 +15,9 @@ module JekyllMoney
       format_money(value, currency, options)
     end
 
-    def money_from_string(value, currency = "USD", options = {})
-      Money.from_amount(value, currency)
+    def money_from_amount(value, currency = 'USD', options = {})
+      value = Money.from_amount(value, currency)
+      format_money(value, currency, options)
     end
 
     private
