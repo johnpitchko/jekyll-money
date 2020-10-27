@@ -1,7 +1,9 @@
 require "money"
 
-# https://git.io/vM7vw
-I18n.enforce_available_locales = false
+# Implemement 'per currency' localization to keep life simple
+# Also suppresses deprecation warnings
+# https://github.com/RubyMoney/money#localization
+Money.locale_backend = :currency
 
 module JekyllMoney
   module Core
