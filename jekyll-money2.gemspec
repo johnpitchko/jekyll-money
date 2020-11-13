@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'jekyll-money/version'
+require 'jekyll-money2/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'jekyll-money2'
-  spec.version       = JekyllMoney::VERSION
+  spec.version       = JekyllMoney2::VERSION
   spec.authors       = ['John Pitchko', "Josh Habdas"]
   spec.email         = ['john.pitchko@icloud.com', "jhabdas@protonmail.com"]
 

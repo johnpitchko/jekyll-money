@@ -1,4 +1,4 @@
-# Jekyll Money
+# Jekyll Money2
 
 A Jekyll plugin for dealing with money. Because we all have to at some point.
 
@@ -13,7 +13,7 @@ The original repository for this gem can be found at https://git.habd.as/jhabdas
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'jekyll-money'
+gem 'jekyll-money2'
 ```
 
 And then execute:
@@ -22,13 +22,13 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jekyll-money
+    $ gem install jekyll-money2
 
 Then, in your `_config.yml` file, add to or make a new array with the key `plugins` and the values of the gem names of the plugins you'd like to use. In this case:
 
 ```yaml
 plugins:
-  - jekyll-money
+  - jekyll-money2
 ```
 Note: If using a version of Jekyll below `3.5.0`, use `gems:` in place of `plugins:`.
 
@@ -88,5 +88,5 @@ This plugin wouldn't be possible without the fine work of:
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
-Copyright (c) 2020 Josh Habdas
 Copyright (c) 2020 John Pitchko
+Copyright (c) 2017 Josh Habdas
