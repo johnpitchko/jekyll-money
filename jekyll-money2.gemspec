@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jekyll-money/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-money"
+  spec.name          = "jekyll-money2"
   spec.version       = JekyllMoney::VERSION
-  spec.authors       = ["Josh Habdas", 'John Pitchko']
-  spec.email         = ["jhabdas@protonmail.com", 'john.pitchko@icloud.com']
+  spec.authors       = ['John Pitchko', "Josh Habdas"]
+  spec.email         = ['john.pitchko@icloud.com', "jhabdas@protonmail.com"]
 
-  spec.summary       = "A Jekyll plugin for dealing with money. Because we all have to at some point."
-  spec.homepage      = "https://git.habd.as/jhabdas/jekyll-money"
+  spec.summary       = "A Jekyll plugin for dealing with money. Enhanced from the original jekyll-money gem."
+  spec.homepage      = 'https://github.com/johnpitchko/jekyll-money2'
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
