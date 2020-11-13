@@ -6,6 +6,7 @@ require "money"
 Money.locale_backend = :currency
 # Explicitly state rounding method; also suppresses warning
 Money.rounding_mode = BigDecimal::ROUND_HALF_UP
+Money.default_currency = 'USD'
 
 module JekyllMoney
   module Core
@@ -20,7 +21,10 @@ module JekyllMoney
     end
 
     def money_from_amount(value, currency = 'USD', options = {})
-        value = Money.from_amount(value.to_f, currency)
+      @defaults = defaults unless defined?(@defaults)
+      @options = @defaults.merge(options)
+
+      value = Money.from_amount(value.to_f, currency)
       format_money(value, currency, options)
     end
 
