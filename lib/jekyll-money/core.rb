@@ -20,7 +20,7 @@ module JekyllMoney
     end
 
     def money_from_amount(value, currency = 'USD', options = {})
-      value = Money.from_amount(value, currency)
+        value = Money.from_amount(value.to_f, currency)
       format_money(value, currency, options)
     end
 

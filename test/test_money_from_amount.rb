@@ -19,4 +19,8 @@ class TestMoneyFromAmount < Minitest::Test
     assert_equal('£1.00', JekyllMoney::Core.money_from_amount(1.00, 'GBP'))
     assert_equal('€1,00', JekyllMoney::Core.money_from_amount(1.00, 'EUR'))
   end
+
+  def test_accepts_value_as_string
+    assert_equal('$10.00', JekyllMoney::Core.money_from_amount('10.00'))
+  end
 end
