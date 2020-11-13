@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jekyll-money/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-money2"
+  spec.name          = 'jekyll-money2'
   spec.version       = JekyllMoney::VERSION
   spec.authors       = ['John Pitchko', "Josh Habdas"]
   spec.email         = ['john.pitchko@icloud.com', "jhabdas@protonmail.com"]
