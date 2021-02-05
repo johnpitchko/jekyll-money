@@ -4,5 +4,5 @@ source 'https://rubygems.org'
 gemspec
 
 gem "jekyll", "~> 4.0"
-gem "money", "~> 6.8"
-gem "bigdecimal", '~> 1.3'
+gem "money", "~> 6.14"
+gem "bigdecimal", '~> 3.0'

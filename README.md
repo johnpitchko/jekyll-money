@@ -88,5 +88,5 @@ This plugin wouldn't be possible without the fine work of:
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
-Copyright (c) 2020 John Pitchko
+Copyright (c) 2021 John Pitchko
 Copyright (c) 2017 Josh Habdas
